@@ -1,6 +1,9 @@
 sudo: required
 dist: bionic
 language: go
+arch:
+  - amd64
+  - ppc64le
 go:
   - master
   - 1.14.x
